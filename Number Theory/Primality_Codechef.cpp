@@ -1,3 +1,31 @@
+/*
+Input
+The first line of the input contains an integer T, the number of testcases. T lines follow.
+
+Each of the next T lines contains an integer N which has to be tested for primality.
+
+Output
+For each test case output in a separate line, "yes" if the number is prime else "no."
+
+Constraints
+1 ≤ T ≤ 20
+1 ≤ N ≤ 100000
+Input:
+5
+23
+13
+20
+1000
+99991
+
+Output:
+yes
+yes
+no
+no
+yes
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
